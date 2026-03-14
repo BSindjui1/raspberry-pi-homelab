@@ -71,18 +71,18 @@ This project implements a complete home network monitoring and management soluti
 ┌─────────────────────────────────────────────────────────┐
 │                    Raspberry Pi                         │
 │                                                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
-│  │   Pi-hole    │  │  Monitoring  │  │    Docker    │ │
-│  │  DNS Server  │  │    Script    │  │  Containers  │ │
-│  │              │  │              │  │              │ │
-│  │  • Ad Block  │  │  • System    │  │  Prometheus  │ │
-│  │  • DNS Log   │  │  • Network   │  │  Grafana     │ │
-│  │  • Stats     │  │  • Pi-hole   │  │              │ │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘ │
-│         │                 │                  │         │
-│         └─────────────────┴──────────────────┘         │
-│                           │                            │
-└───────────────────────────┼────────────────────────────┘
+│  ┌──────────────┐  ┌──────────────┐   ┌──────────────┐  │
+│  │   Pi-hole    │  │  Monitoring  │   │    Docker    │  │
+│  │  DNS Server  │  │    Script    │   │  Containers  │  │
+│  │              │  │              │   │              │  │
+│  │  • Ad Block  │  │  • System    │   │  Prometheus  │  │
+│  │  • DNS Log   │  │  • Network   │   │  Grafana     │  │
+│  │  • Stats     │  │  • Pi-hole   │   │              │  │
+│  └──────┬───────┘  └──────┬───────┘   └──────┬───────┘  │
+│         │                 │                  │          │
+│         └─────────────────┴──────────────────┘          │
+│                           │                             │
+└───────────────────────────┼─────────────────────────────┘
                             │
                     ┌───────▼────────┐
                     │  Email Reports │
