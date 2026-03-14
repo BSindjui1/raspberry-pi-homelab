@@ -183,8 +183,8 @@ chmod 600 ~/.msmtprc
 crontab -e
 
 # Add monitoring schedule (9:30 AM and 10:00 PM daily)
-30 9 * * * /home/bsindjui1373/scripts/pi-status-report.sh
-0 22 * * * /home/bsindjui1373/scripts/pi-status-report.sh
+30 9 * * * /home/user/scripts/pi-status-report.sh
+0 22 * * * /home/user/scripts/pi-status-report.sh
 ```
 
 ### 5. Deploy Docker Monitoring Stack
