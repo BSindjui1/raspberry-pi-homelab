@@ -22,8 +22,8 @@
 # 
 # m h  dom mon dow   command
 
-# Morning report at 9:30 AM
-30 9 * * * /home/bsindjui1373/pi-status-report.sh
+# Morning report at 9:30 AM 
+30 9 * * * /home/USER/pi-status-report.sh
 
 # Evening report at 10:00 PM
-0 22 * * * /home/bsindjui1373/pi-status-report.sh
+0 22 * * * /home/USER/pi-status-report.sh
