@@ -186,10 +186,10 @@ $PIHOLE_FTL_STATUS
 # SEND EMAIL
 # ==============================================================================
 
-echo "$REPORT" | msmtp sindjui.brandon@gmail.com
+echo "$REPORT" | msmtp "Email goes here"
 
 # Log that report was sent
-echo "[$DATE] Report sent successfully" >> /home/bsindjui1373/pi-status-report.log
+echo "[$DATE] Report sent successfully" >> /home/USER/pi-status-report.log
 
 # Optional: Print to console if running manually
 # echo "$REPORT"
